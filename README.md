@@ -18,5 +18,12 @@ module "sg" {
 }
 
 ```
+## Providers
+
+| Name | Version |
+|------|---------|
+| aws  | ~> 0.1  |
+
+```
 outputs:
 the created security group accesible via: `module.sg.security_group`
