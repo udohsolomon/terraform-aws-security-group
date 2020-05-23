@@ -3,7 +3,7 @@ This is a module that makes it easy to create security groups in AWS. Built for 
 
 Example Usage:
 ```
-module "sg" {
+module "security-group" {
     name = var.name
     description = var.description
     vpc_id = var.vpc_id
